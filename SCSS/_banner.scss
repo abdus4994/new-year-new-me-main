@@ -1,0 +1,29 @@
+#bannar {
+    // position: relative;
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;   
+    .banner-contain {      
+        width: 525px;
+        margin-right: 100px;
+        h1 {
+            @include heading-text;
+            font-size: 65px;
+        }
+        p {
+            @include p-text;
+            font-size: 16px;
+        }
+
+        a {
+            @include btn-style;
+            background-color: $btnColor;
+            color: $whiteColor;
+        }
+      
+    }
+   
+       
+}

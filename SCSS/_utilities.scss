@@ -1,0 +1,40 @@
+// color
+$pColor : #151414;
+$btnColor : #F15B22;
+$whiteColor : #fff;
+
+// font-weight
+$pfontWH : 700;
+$pfontWP : 400;
+// Responsive size
+$small : 576px;
+$medium : 767px;
+
+// mixin
+@mixin heading-text {
+font-weight: 700;
+color: $pColor;
+line-height: normal;
+font-style: normal; 
+}
+
+@mixin p-text {
+    font-weight: 400;
+    color: $pColor;
+    font-size: 16px;
+    line-height: normal;
+    font-style: normal; 
+    }
+
+    @mixin btn-style {
+        font-weight: 600;
+        color: $pColor;
+        font-size: 20px;
+        line-height: normal;
+        font-style: normal;
+        padding: 10px 20px 10px 20px; 
+        border-radius: 5px; 
+        }
+
+    
+
