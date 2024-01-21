@@ -1,5 +1,5 @@
 @media only screen and (min-width: 200px) and (max-width: 700px) {
-    
+    // banner section
     #bannar {        
         padding: 50px 0px;        
         .banner-contain {
@@ -11,12 +11,38 @@
         }
     }
 
+    // failures section
     #failures {
-        img {
+        width: 100%;
+        overflow: hidden;
+        margin-left: 0 !important;
+        justify-content: center;
+        align-items: center;
+        .left-side {
+            position: relative;
+            .layout {
+                position: absolute;
+                left: 5px !important;
+            }
+        }
+
+        .failures-sub_heading {
             width: 100%;
+            margin-left: 0;
+            margin-top: 20px;
+        }
             
         }
+
+      
+    // Positive Section
+
+    #positive {
+        width: 100%;
+        overflow: hidden;
     }
         
-   
+    #plan  {
+        width: 100%;
+    }
 }
