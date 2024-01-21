@@ -1,4 +1,5 @@
 @media only screen and (min-width: 200px) and (max-width: 700px) {
+    
     #bannar {        
         padding: 50px 0px;        
         .banner-contain {
@@ -7,6 +8,13 @@
             h1 {
                 font-size: 45px;
             }
+        }
+    }
+
+    #failures {
+        img {
+            width: 100%;
+            
         }
     }
         

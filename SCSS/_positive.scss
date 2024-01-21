@@ -1,0 +1,34 @@
+#positive {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: 65px;   
+    position: relative;
+
+    .positive-contain {
+        padding: 50px 20px;
+        border-radius: 8px;        
+        background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;      
+
+        h1 {
+            @include heading-text;
+            margin-bottom: 20px;
+            color: $whiteColor;
+            font-size: 40px;
+        }
+
+        a {
+            @include btn-style;
+            background-color: $whiteColor;
+            width: 160px; 
+            color: #F15B22; 
+            
+        }
+        
+    }
+}

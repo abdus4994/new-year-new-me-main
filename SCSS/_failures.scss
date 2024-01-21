@@ -1,0 +1,42 @@
+#failures {
+    // position: relative;
+    .left-side {
+        position: relative;
+
+        .layout {
+            width: 527px;
+            height: 527px;
+            background: rgba(241, 91, 34, 0.20);
+            border-radius: 527px;
+            position: absolute;
+            left: 65px;
+            bottom: 5px;
+            z-index: -1;
+            
+        }
+    }
+   
+    .failures-sub_heading {     
+        width: 416px;
+    }
+   h2 {
+    @include heading-text;
+    font-size: 40px;
+    width: 288px; 
+}
+    p {
+        @include p-text;
+        //text-align: justify;
+       
+    }
+    .failures-list {
+        p {
+            @include p-text;
+            list-style: normal;
+            line-height: normal;
+            
+        }
+    }
+
+   
+}
