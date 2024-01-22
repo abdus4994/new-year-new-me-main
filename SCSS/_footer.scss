@@ -1,0 +1,49 @@
+#footer {
+    background: #151414;
+    .footer-contain {
+        padding: 50px 0;
+        .footer-contain_left {
+            margin-bottom: 20px;
+            width: 485px;
+            h1 {
+                @include heading-text;
+                color: $whiteColor;
+                font-size: 45px;
+            }
+
+            p {
+                @include p-text;
+                color: $whiteColor;
+            }
+
+
+        }
+
+        .footer-contain_right {
+            
+            h3 {
+                @include heading-text;
+                color: $whiteColor;
+            }
+            input {
+                width: 325px;
+                height: 64px; 
+                border-radius: 8px;
+                border: 1px solid #FFF;
+                padding: 0 10px;
+                color: $whiteColor;
+                background: $pColor
+                 
+            }
+
+            button {
+                @include btn-style;
+                color: $btnColor;
+            }
+        }
+
+    }
+
+   
+   
+}
